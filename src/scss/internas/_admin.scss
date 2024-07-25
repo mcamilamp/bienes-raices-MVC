@@ -1,0 +1,54 @@
+.alerta {
+  padding: 0.5rem;
+  color: $blanco;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0.7rem 0;
+
+  &.error {
+    background-color: $rojo;
+  }
+
+  &.exito {
+    background-color: $verde;
+  }
+}
+
+table.propiedades {
+  width: 100%;
+  border: 1px solid #669b0a;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+
+  thead {
+    background-color: $verde;
+
+    th {
+      color: $blanco;
+      padding: 1.4rem;
+      border: 1px solid #669b0a;
+    }
+  }
+
+  .imagen-tabla {
+    width: 15rem;
+    margin: auto;
+  }
+
+  tr,
+  td {
+    border: 1px solid #669b0a;
+  }
+
+  td {
+    padding: 1rem;
+  }
+}
+
+.imagen-small {
+  width: 20rem;
+  margin: 2rem 0;
+}
